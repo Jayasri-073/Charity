@@ -1,0 +1,87 @@
+
+.add-patient-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .add-patient-form input,
+  .add-patient-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-patient-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-patient-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+
+  .patient-list-container {
+    padding: 20px;
+  }
+  
+  .patient-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .patient-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .patient-image {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  .donate-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donate-button:hover {
+    background-color: #218838;
+  }
+  .patient-image.clickable-image {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+  }
+  
+  .patient-image.clickable-image:hover {
+    transform: scale(1.05);
+  }
+  

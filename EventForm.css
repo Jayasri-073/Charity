@@ -1,0 +1,47 @@
+.event-form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .event-form-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .event-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .event-form-container input,
+  .event-form-container textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .event-form-container textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .event-form-container button {
+    padding: 0.7rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .event-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
